@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ <link href="css.css" rel="stylesheet" type="text/css" />
+<style>
+    body {
+        margin: 5px;
+        padding: 5px;
+        font-family: Arial, sans-serif;
+    }
+    header {
+        text-align: center;
+        background-color:darkgreen;
+        height: 250px;
+       
+    }
+    main {
+        height:100vh;
+        background: url('https://myhouse.ph/wp-content/uploads/2023/08/The-Rise-Monterrazas-2023.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+     }
+    .whole img {
+        width: 250px;
+        height: 250px;
+    }
+    .whole h1 {
+        margin: 0;
+    }
+    #social-media ul {
+        list-style: none;
+        padding: 0;
+        display: inline;
+        justify-content: center;
+    }
+    #social-media li {
+        margin:10px;
+        display: inline;
+    }
+    #social-media img {
+        width: 50px;
+        height: 50px;
+    }
+    .navigation {
+        text-align:left;
+        background-color: #666;
+        height: 10px;
+
+        
+    }
+    .navigation a button {
+        padding: 10px 20px;
+        margin: 0 5px;
+        cursor: pointer;
+        justify-content: center;
+    }
+    .container {
+        position: relative;
+        text-align: center;
+    }
+    .container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .form-box {
+        position:absolute;
+        margin-top:70%;
+        left:50%;
+        
+        transform: translate(-50%, -50%);
+        background: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        text-align: center;
+        float: none;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+    .form .title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .form .subtitle {
+        font-size: 14px;
+        margin-bottom: 20px;
+        color: #666;
+    }
+    .form-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .input {
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+    button {
+        padding: 10px;
+        border: none;
+        background-color: #007BFF;
+        color: white;
+        border-radius: 30px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    .form-section {
+        margin-top: 20px;
+    }
+    .form-section a {
+        color: #007BFF;
+        text-decoration: none;
+    }
+    .form-section a:hover {
+        text-decoration: underline;
+    }
+    footer {
+        text-align: center;
+        padding: 20px;
+        height: fit-content ;
+    }
+    
+</style>
+</head>
+<body>
+<header>
+<div class="whole">
+	<table>
+				
+						
+						<td colspan="5"><img src="https://kat-on.asscat.edu.ph/pluginfile.php/1/theme_moove/logo/1662702462/ASSCAT%20Logo.png" alt="logo" width="10" height="10"></td>						
+						<td><h1>Agusan del Sur State College of Agriculture and Technology</h1><hr><p>Bunawan,Agusan del Sur,8506</p></td>						
+				
+				
+	</table>	
+	
+   
+<nav class="navigation">
+  
+   
+</nav>
+<main>
+    <script>
+        function validatedform(){
+            var username=document.myform.name.value;
+            var password=document.myform.password.value;
+
+            if (username=="Aivan"&& password=="Van"){
+                //alert("Name can't be blank");
+                window.location="mainpage.html";
+                return false;
+            }
+            else if (password!="Van"){
+                alert("Password is incorrect.");
+                return false;
+            }
+        }
+    </script>
+</head>
+
+    <div class="container">
+        <div class="form-box">
+            <form class="form">
+                <span class="title">Login</span>
+                <span class="subtitle">Create a free account with your email.</span>
+                <div class="form-container">
+                    <input type="text" class="input" placeholder="Full Name">
+                    <input type="Username" class="input" placeholder="Username">
+                    <input type="password" class="input" placeholder="Password">
+                </div>
+                <button> <a href="http://127.0.0.1:5500/Aivan_website/aivan%20final.html">Sign up</a></button>
+            </form>
+            <div class="form-section">
+                <p>Have an account? <a href="">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="buttom">
+
+ 	                 <h2 class="name">Design by: Aivan A. Alicante </h2>
+					
+</footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css lo in.css" rel="stylesheet" type="text/css" />
+    <title>Sign Up</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        .whole img {
+            width: 210px;
+            height: 210px;
+        }
+        .whole h1 {
+            margin: 0;
+        }
+        #social-media ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        #social-media li {
+            margin: 0 10px;
+        }
+        #social-media img {
+            width: 50px;
+            height: 50px;
+        }
+        .navigation {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .navigation a button {
+            padding: 10px 20px;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+        .container {
+            position: relative;
+            text-align: center;
+        }
+        .container img {
+            width: 100%;
+            height: auto;
+        }
+        .form-box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+        .form {
+            display: flex;
+            flex-direction: column;
+        }
+        .form .title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .form .subtitle {
+            font-size: 14px;
+            margin-bottom: 20px;
+            color: #666;
+        }
+        .form-container {
+            display: flex;
+            flex-direction: column;
+        }
+        .input {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        button {
+            padding: 10px;
+            border: none;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .form-section {
+            margin-top: 20px;
+        }
+        .form-section a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .form-section a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="whole">
+        <table>
+            <tr>
+                <td colspan="5"><img src="https://kat-on.asscat.edu.ph/pluginfile.php/1/theme_moove/logo/1662702462/ASSCAT%20Logo.png" alt="logo"></td>
+                <td>
+                    <h1>Agusan del Sur State College of Agriculture and Technology</h1>
+                    <hr>
+                    <p>Bunawan, Agusan del Sur, 8506</p>
+                </td>
+            </tr>
+        </table>
+        <div id="social-media">
+            <ul>
+                <li><a href="https://www.facebook.com/"><img src="C:\Users\julius mordeno nunez\OneDrive\Documents\Aivan's File\Facebook-Logo.png" alt="Facebook"></a></li>
+                <li><a href="https://www.youtube.com/"><img src="C:\Users\julius mordeno nunez\OneDrive\Documents\Aivan's File\you.jpg" alt="YouTube"></a></li>
+                <li><a href="https://www.instagram.com/"><img src="C:\Users\julius mordeno nunez\OneDrive\Documents\Aivan's File\insta.jpg" alt="Instagram"></a></li>
+                <li><a href="https://twitter.com/"><img src="C:\Users\julius mordeno nunez\OneDrive\Documents\Aivan's File\tweter.png" alt="Twitter"></a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<nav class="navigation">
+    <a href="home"><button>Home</button></a>
+    <a href="act1.html"><button>About Us</button></a>
+    <a href="act2.html"><button>Contact Us</button></a>
+    <a href=""><button>Activity 3</button></a>
+</nav>
+<main>
+    <div class="container">
+        <img src="https://img.bomboradyo.com/newscenter/2021/08/Butuan-Agusan.jpg" alt="ASSCAT">
+        <div class="form-box">
+            <form class="form">
+                <span class="title">Sign up</span>
+                <span class="subtitle">Create a free account with your email.</span>
+                <div class="form-container">
+                    <input type="text" class="input" placeholder="Full Name">
+                    <input type="email" class="input" placeholder="Email">
+                    <input type="password" class="input" placeholder="Password">
+                </div>
+                <button>Sign up</button>
+            </form>
+            <div class="form-section">
+                <p>Have an account? <a href="">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <h2 class="name">Design by: Aivan A. Alicante</h2>
+</footer>
+</body>
+</html>

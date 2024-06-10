@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 10, 40, 0); 
+    box-shadow: none; 
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 100px;;
+}
+
+header .logo {
+    font-size: 1.5em;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 50px;
+}
+
+header nav ul li a {
+    color:black;
+    text-decoration style:wavy;
+
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.title-section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title-section h1 {
+    font-size: 3em;
+    margin: 0;
+    color: red;
+}
+
+.title-section button {
+    background-color: white;
+    border-radius:25px;
+    color: blue;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+}
+
